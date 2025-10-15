@@ -16,7 +16,7 @@ spring:
               redirect-uris:
                 - "http://GATEWAY-SERVICE:1004/login/oauth2/code/auth"
               post-logout-redirect-uris:
-                - "http://GATEWAY-SERVER:1004:1004/logged-out"
+                - "http://GATEWAY-SERVER:1004/logged-out"
               scopes:
                 - "openid"
                 - "profile"
