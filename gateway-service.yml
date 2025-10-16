@@ -14,7 +14,7 @@ spring:
             client-id: auth
             client-secret: secret
             authorization-grant-type: authorization_code
-            scope: openid,profile,auth.user.all,auth.user.read,auth.user.write,auth.admin
+            scope: openid, profile, auth.user.all, auth.user.read, auth.user.write, auth.admin
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
         provider:
           spring:
